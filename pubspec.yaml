@@ -1,0 +1,31 @@
+name: mindeaseai
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0
+  url_launcher: ^6.2.6
+  supabase_flutter: ^2.5.1
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.1
+
+  # ✅ WORKING VERSION (VERY IMPORTANT)
+  speech_to_text: 7.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
