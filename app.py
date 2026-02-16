@@ -10,6 +10,8 @@ from openai import OpenAI
 app = Flask(__name__)
 CORS(app)
 
+print("🚀 MindEaseAI backend starting...")
+
 # =========================
 # LOAD API KEY (SAFE)
 # =========================
@@ -17,11 +19,14 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
 if not OPENROUTER_API_KEY:
     print("❌ ERROR: OPENROUTER_API_KEY not set")
-    # Do NOT crash app, return controlled error instead
 
 client = OpenAI(
     api_key=OPENROUTER_API_KEY,
     base_url="https://openrouter.ai/api/v1",
+    default_headers={
+        "HTTP-Referer": "https://mindeaseai.onrender.com",
+        "X-Title": "MindEaseAI",
+    },
 )
 
 # =========================
@@ -56,14 +61,14 @@ def call_ai_with_retry(messages, retries=2, delay=1):
             print(f"🤖 AI attempt {attempt + 1}")
 
             response = client.chat.completions.create(
-                model="openrouter/auto",  # ✅ most stable choice
+                model="openrouter/auto",  # most stable
                 temperature=0.7,
                 messages=messages,
                 timeout=20,
             )
 
             reply = response.choices[0].message.content
-            if reply:
+            if reply and reply.strip():
                 return reply.strip()
 
         except Exception as e:
@@ -76,8 +81,12 @@ def call_ai_with_retry(messages, retries=2, delay=1):
     )
 
 # =========================
-# HEALTH CHECK ENDPOINT
+# ROOT / HEALTH (IMPORTANT)
 # =========================
+@app.route("/", methods=["GET"])
+def root():
+    return "MindEaseAI backend is running", 200
+
 @app.route("/health", methods=["GET"])
 def health():
     return jsonify({
@@ -161,5 +170,3 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     print(f"🚀 MindEaseAI backend running on port {port}")
     app.run(host="0.0.0.0", port=port, debug=True)
-
-
