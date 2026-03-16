@@ -1,0 +1,1 @@
+ C:\\Users\\ajmat\\mindeaseai\\mindeaseai\\build\\fa1bd5a6fa9199acd5da4fd5777ed058\\dart_build_result.json:  C:\\Users\\ajmat\\mindeaseai\\mindeaseai\\.dart_tool\\package_config.json C:\\Users\\ajmat\\mindeaseai\\mindeaseai\\pubspec.yaml C:\\flutter\\bin\\cache\\dart-sdk\\version c:\\users\\ajmat\\mindeaseai\\mindeaseai\\.dart_tool\\package_config.json

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-copyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\de5dd7890765116aaee5042dbb1c005a\nuget-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\19bd641eb4fff95081cdb0da49927cf4\nuget-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\950c37d00cb5009e92103bfe6be1a065\nuget-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\nuget-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A68B66F7-948B-3D62-A169-2DCE91BD6424}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

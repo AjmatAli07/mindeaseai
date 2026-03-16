@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/cmake_install.cmake",
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/flutter/cmake_install.cmake",
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/runner/cmake_install.cmake",
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/plugins/app_links/cmake_install.cmake",
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/plugins/geolocator_windows/cmake_install.cmake",
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/plugins/permission_handler_windows/cmake_install.cmake",
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/plugins/speech_to_text_windows/cmake_install.cmake",
+		"C:/Users/ajmat/mindeaseai/mindeaseai/build/windows/x64/plugins/url_launcher_windows/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

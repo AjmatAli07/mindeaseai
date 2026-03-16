@@ -1,0 +1,1 @@
+ C:\\Users\\ajmat\\mindeaseai\\mindeaseai\\.dart_tool\\flutter_build\\eaf882e565b96c00e8da2e56c6fb45e7\\native_assets.json: 

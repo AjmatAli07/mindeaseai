@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ajmat\mindeaseai\mindeaseai\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\950c37d00cb5009e92103bfe6be1a065\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A68B66F7-948B-3D62-A169-2DCE91BD6424}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

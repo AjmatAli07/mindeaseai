@@ -11,16 +11,30 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # UI
   cupertino_icons: ^1.0.8
+
+  # Networking
   http: ^1.1.0
-  url_launcher: ^6.2.6
+
+  # Supabase
   supabase_flutter: ^2.5.1
+
+  # Storage & permissions
   path_provider: ^2.1.2
   permission_handler: ^11.3.1
 
-  # ✅ WORKING VERSION (VERY IMPORTANT)
+  # Date & time
+  intl: ^0.19.0
+
+  # Speech
   speech_to_text: 7.3.0
 
+  # Location (for mental health support redirect)
+  geolocator: ^11.0.0
+
+  # Open Google Maps / external apps
+  url_launcher: ^6.2.6
 
 dev_dependencies:
   flutter_test:
